@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" methos="post">
+        <label for="username">Username:</label>
+        <input type="text" placeholder="name" id="username" required><br>
+         <label for="password">password:</label>
+        <input type="password" placeholder="password" id="password"><br>
+        <label for="email">email:</label>
+        <input type="email" placeholder="aashrithamani@gmail.com" id="email"><br>
+        <label for="phno">phno:</label>
+        <input type="tel" placeholder="9676996420" pattern="[0-9]{10}" id="phno"><br>
+        <label for="Mr.">Mr.</label>
+        <input type="radio" value="Mr." name="gender" id="Mr."><br>
+        <label for="Ms.">Ms.</label>
+        <input type="radio" value="Ms." name="gender" id="Ms."><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date"><br>
+        <label for="payment">payment:</label>
+        <select id="payment" value="select">
+            <option value="creditcard">Creditcard</option>    
+            <option value="debitcard">Debitcard</option> 
+            <option value="UPI">UPI</option>           
+        </select><br>
+        <label for="file">upload file:</label>
+        <input type="file" id="file" accept=".pdf"><br>
+        <label for="number">Quantity:</label>
+        <input type="number" id="number" min="0" max="37" value="1"><br>
+        <label for="comment">comment:</label>
+        <textarea id="comment" rows="2" cols="6"></textarea><br>
+        <label for="checkbox">payment done:</label>
+        <input type="checkbox" id="checkbox"><br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
